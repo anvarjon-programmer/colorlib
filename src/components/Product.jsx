@@ -26,7 +26,6 @@ const Product = ({product}) => {
           <Link to={`/product/${id}`} className="w-12 h-12 bg-white flex justify-center items-center text-primary drop-shadow-xl"><BsEyeFill/></Link>
         </div>
       </div>
-
       {/* category & title & price */}
       <div className="">
         <div className="text-sm capitalize text-gray-500 mb-1">{category}</div>
